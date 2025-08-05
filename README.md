@@ -36,6 +36,14 @@ Example output:  The sum of this circuit is 1 and the Carry-out of the circuit i
 
 ---
 
+## Screenshot
+
+Here is a sample run of the program:
+
+![Screenshot of program output](screenshot.png)
+
+---
+
 
 ## Generated File
 
