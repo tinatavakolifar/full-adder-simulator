@@ -30,7 +30,7 @@ class FullAdder: #کلاس محاسبه فول ادر
         return (self.A and self.B) or (self.C and xor(self.A, self.B))
 
 faWanted = FullAdder(A, B ,C)
-print ('The sum of this circuit is %s and the Carry-out of the circuit is %s' % (faWanted.sum(), faWanted.carry()) )
+print(f'The sum of this circuit is {int(faWanted.sum())} and the Carry-out is {int(faWanted.carry())}.')
 print ('You can also access the full-adder truth table in a file named FAtruthTable.csv')
 
 ttInput = 0b000 #برای وارد کردن ورودی ها در جدول درستی
